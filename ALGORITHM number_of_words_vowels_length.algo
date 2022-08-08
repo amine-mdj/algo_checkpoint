@@ -1,0 +1,23 @@
+ALGORITHM number_of_words_vowels_length
+VAR
+sentence:STRING:= "hi i am an expression."
+ words_count:INTEGER :=1
+vowels_count : INTEGER := 0
+sentence_length : INTEGER := 0
+BEGIN
+
+WHILE ( caracter != '.') DO
+sentence_legnth := sentence_legnth + 1
+
+IF (caracter == ' ') THEN
+   words_count := words_count + 1 
+ELSE_IF (caracter == 'a' || caracter == 'e' || caracter == 'i' || caracter == 'o' || caracter == 'u') THEN
+vowels_count := vowels_count + 1
+
+ 
+END_IF
+
+END_WHILE
+
+
+END
